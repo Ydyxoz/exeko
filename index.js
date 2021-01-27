@@ -17,4 +17,4 @@ client.once('ready', () => {
   console.log('bot opérationnel');
 });
 
-client.login(token);
+client.login(process.env.TOKEN);
